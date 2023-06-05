@@ -1,0 +1,177 @@
+.container {
+	width: 50%;
+	margin: 0 auto;
+	background-color: #988884;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+
+@font-face {
+	font-family: 'Droid Arabic Kufi';
+	font-style: normal;
+	font-weight: 400;
+	src: url('https://cdn.shopgo.me/static/vetrina/ttf/droid-kufi-regular.ttf');
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Droid Arabic Kufi';
+	font-style: normal;
+	font-weight: 700;
+	src: url('https://cdn.shopgo.me/static/vetrina/ttf/droid-kufi-bold.ttf');
+	font-display: swap;
+}
+@import url('https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+.banner-container {
+	z-index: 2;
+	position: sticky;
+	box-shadow: 0 2pt 4pt rgba(0, 0, 0, 0.1);
+	top: -280pt;
+}
+
+.container-fluid {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.p-0 {
+	padding: 0;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-grow {
+	flex-grow: 1;
+}
+
+.max740 {
+	max-width: 640pt;
+}
+
+#main {
+	background-color: var(--background);
+	box-shadow: 0 0 12pt rgba(0, 0, 0, 0.1);
+}
+
+#flat-app {
+	background-color: var(--background-light);
+}
+
+#main-content {
+	flex: 1;
+}
+
+@media (min-width: 769px) {
+	.flat-topbar-container {
+		position: relative;
+	}
+}
+
+.flex-row {
+	-ms-flex-direction: row !important;
+	flex-direction: row !important;
+}
+
+.flex-wrap {
+	-ms-flex-wrap: wrap !important;
+	flex-wrap: wrap !important;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-between {
+	justify-content: space-between;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.flat-topbar {
+	min-height: 60px;
+	padding: 10px 25px;
+}
+
+@media (min-width: 769px) {
+	.track-order-btn-wrapper {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		justify-content: center;
+	}
+}
+
+.track-order-btn-wrapper {
+	display: flex;
+	z-index: 10;
+	pointer-events: none;
+}
+
+.align-items-center {
+	-ms-flex-align: center;
+	align-items: center;
+	margin: 0 5px 0 5px;
+}
+
+.d-flex {
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.zaid-svg {
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+.login-button span {
+	font-weight: 500;
+}
+
+@media (max-width: 768px) {
+	.banner-container {
+		top: -316pt;
+	}
+
+	.flat-topbar {
+		padding: 10px 10px;
+	}
+
+	.flat-topbar .branch-desktop {
+		display: none;
+	}
+}
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-PjL89.style-PjL89 {
+	color: var(--header-color);
+	gap: 38px;
+}
+#style-hrr6Q.style-hrr6Q {
+	cursor: pointer;
+	gap: 8px;
+}
+#style-pAKFj.style-pAKFj {
+	margin-top: -3px;
+}
+#style-1qkpq.style-1qkpq {
+	cursor: pointer;
+}
+#style-VoKbY.style-VoKbY {
+	font-size: 20px;
+}

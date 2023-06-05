@@ -1,0 +1,250 @@
+/* @import url('https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap');
+@font-face {
+  font-family:'Droid Arabic Kufi';
+  font-style:normal;
+  font-weight:400;
+  src:url("https://cdn.shopgo.me/static/vetrina/ttf/droid-kufi-regular.ttf");
+  font-display:swap;
+}
+@font-face {
+  font-family:'Droid Arabic Kufi';
+  font-style:normal;
+  font-weight:700;
+  src:url("https://cdn.shopgo.me/static/vetrina/ttf/droid-kufi-bold.ttf");
+  font-display:swap;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+* {
+    box-sizing:   border-box;
+    font-family:  'Inter', 'Droid Arabic Kufi';
+} */
+
+.zaid-nav {
+	display: block;
+}
+
+/* *  {
+    font-family: 'Roboto', sans-serif;
+} */
+
+.navbar {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 0.5rem 1rem;
+}
+
+.navbar-expand {
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+}
+
+.px-0 {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+
+/* *  {
+    font-family: 'Arial', sans-serif;
+} */
+
+.align-center {
+	align-items: center;
+}
+
+.navbar {
+	user-select: none;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.home .navigation-bar .navbar {
+	display: flex;
+	overflow-x: auto;
+	font-size: 14px;
+	overflow-y: hidden;
+	padding: 0;
+}
+
+.flex-row {
+	display: flex;
+	-ms-flex-direction: row !important;
+	flex-direction: row;
+}
+
+.container-fluid {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.home #categories-menu {
+	top: 0;
+	z-index: 100;
+	position: sticky;
+	background-color: var(--background);
+}
+
+.banner-container {
+	z-index: 2;
+	position: sticky;
+	box-shadow: 0 2pt 4pt rgba(0, 0, 0, 0.1);
+	top: -280pt;
+}
+
+.p-0 {
+	padding: 0 !important;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-grow {
+	flex-grow: 1;
+}
+
+.max740 {
+	max-width: 640pt;
+}
+
+#main {
+	background-color: var(--background);
+	box-shadow: 0 0 12pt rgba(0, 0, 0, 0.1);
+}
+
+#main.padBottom {
+	margin-bottom: 80px;
+}
+
+#flat-app {
+	background-color: var(--background-light);
+}
+
+#main-content {
+	flex: 1;
+}
+
+/* body {
+    display:  flex;
+    margin:   0;
+    font-family:   'Roboto', sans-serif;
+    font-size:   1rem;
+    font-weight:   400;
+    line-height:   1.5;
+    color:   var(--font-color);
+    text-align:   left;
+    background-color:   var(--background);
+    flex-direction:  column;
+    min-height:  100vh;
+    overflow-y: scroll;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+    --primary:   #F13D5D;
+    --font-color:  #D6D6D6;
+    --background:  #1B1C21;
+    --background-light:  #25262B;
+} */
+
+.navbar-nav {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+}
+.navbar-nav {
+	-ms-flex-direction: row;
+	flex-direction: row;
+	overflow: hidden;
+	width: 100%;
+	background-color: brown;
+	overflow-x: scroll;
+}
+.navbar-nav::-webkit-scrollbar {
+	display: none; /* Hide scrollbar for Chrome, Safari, and other WebKit browsers */
+}
+
+/* *, :after, :before {
+    box-sizing: border-box;
+} */
+
+.nav-link {
+	display: block;
+	padding: 0.5rem 1rem;
+}
+
+.nav-item {
+	padding: 12pt;
+}
+
+.navbar-nav .nav-link {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.mrx-4:lang(en) {
+	margin-right: 1rem;
+}
+
+.nav-link {
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+}
+
+.nav-item {
+	color: var(--font-color);
+	cursor: pointer;
+	text-decoration: none;
+	white-space: nowrap;
+	border-top: 3px solid transparent;
+	border-bottom: 3px solid transparent;
+}
+
+.nav-item.active {
+	border-bottom: 3px solid var(--primary);
+}
+
+.nav-link:hover {
+	text-decoration: none;
+}
+
+.nav-item:hover,
+.nav-item.active {
+	border-bottom: 3px solid var(--primary);
+}
+
+.nav-item:hover {
+	border-bottom: 3px solid var(--primary);
+}
+
+@media (max-width: 768px) {
+	.banner-container {
+		top: -316pt !important;
+	}
+}

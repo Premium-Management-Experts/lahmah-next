@@ -1,0 +1,13 @@
+.shader {
+	width: 100%;
+	color: white;
+}
+.banner {
+	height: 250px;
+}
+.bottom-banner {
+	display: flex;
+}
+.container {
+	background-color: cadetblue;
+}
