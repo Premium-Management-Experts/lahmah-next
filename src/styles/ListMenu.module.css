@@ -210,6 +210,7 @@ html {
 
 .mrx-4:lang(en) {
 	margin-right: 1rem;
+	color: white;
 }
 
 .nav-link {
@@ -237,6 +238,7 @@ html {
 .nav-item:hover,
 .nav-item.active {
 	border-bottom: 3px solid var(--primary);
+	color: white;
 }
 
 .nav-item:hover {

@@ -1,7 +1,7 @@
 .container {
-	width: 50%;
+	width: 60%;
 	margin: 0 auto;
-	background-color: #988884;
+	background-color:#1B1C21;
 	position: sticky;
 	top: 0;
 	z-index: 999;
@@ -100,6 +100,25 @@
 
 .align-center {
 	align-items: center;
+}
+.mlx-2 {
+	color: white;
+	font-size: 18px;
+	margin-left: 6px;
+}
+/* .fa-user {
+	color: white;
+	font-size: 22px;
+} */
+.style-pAKFj {
+	color: white;
+	font-size: 18px;
+	margin-left: 6px;
+
+}
+.zaid-svg {
+	color: white;
+	font-size: 20px;
 }
 
 .flat-topbar {

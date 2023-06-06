@@ -87,7 +87,7 @@ export default function ListMenu() {
 				<Image
 					src='https://cdn.makane.com/cdn-cgi/image/quality=80,fit=scale-down,format=auto/20211128-store-oxnp/banners/1109/86573674.jpg'
 					alt='Your image description'
-					width={853}
+					width={1023}
 					height={200}
 				/>
 			</div>

@@ -23,7 +23,7 @@ export default function Home() {
 			</Head>
 			<div
 				style={{
-					width: '50%',
+					width: '60%',
 					margin: '0 auto',
 				}}
 			>
