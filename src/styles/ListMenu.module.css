@@ -183,8 +183,9 @@ html {
 	flex-direction: row;
 	overflow: hidden;
 	width: 100%;
-	background-color: brown;
+	background-color: #1b1c21;
 	overflow-x: scroll;
+	padding: 0 1rem 0;
 }
 .navbar-nav::-webkit-scrollbar {
 	display: none; /* Hide scrollbar for Chrome, Safari, and other WebKit browsers */
@@ -198,6 +199,7 @@ html {
 	display: block;
 	padding: 0.5rem 1rem;
 }
+
 
 .nav-item {
 	padding: 12pt;
@@ -249,4 +251,13 @@ html {
 	.banner-container {
 		top: -316pt !important;
 	}
+}
+.container {
+	background-color: #1b1c21;
+	/* padding: 1rem; */
+}
+.image {
+	width: 100%;
+	padding: 1rem;
+	object-fit: cover;
 }

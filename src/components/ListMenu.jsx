@@ -84,12 +84,15 @@ export default function ListMenu() {
 			</div>
 
 			<div>
-				<Image
-					src='https://cdn.makane.com/cdn-cgi/image/quality=80,fit=scale-down,format=auto/20211128-store-oxnp/banners/1109/86573674.jpg'
-					alt='Your image description'
-					width={1023}
-					height={200}
-				/>
+				<div className='styles.contaner'>
+					<Image
+						className={`${styles['image']}`}
+						src='https://cdn.makane.com/cdn-cgi/image/quality=80,fit=scale-down,format=auto/20211128-store-oxnp/banners/1109/86573674.jpg'
+						alt='Your image description'
+						width={1023}
+						height={250}
+					/>
+				</div>
 			</div>
 		</div>
 	);
