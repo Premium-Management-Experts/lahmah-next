@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from '../styles/ListMenu.module.css';
+import Accordion from '../components/Accordion';
 
 export default function ListMenu() {
 	return (
@@ -94,6 +95,18 @@ export default function ListMenu() {
 					/>
 				</div>
 			</div>
+			<Accordion />
+			<Accordion />
+			<Accordion />
+			<Accordion />
+			<Accordion />
+			<Accordion />
+			<Accordion />
+			<Accordion />
+			<Accordion />
+			<Accordion />
+			<Accordion />
+			<Accordion />
 		</div>
 	);
 }

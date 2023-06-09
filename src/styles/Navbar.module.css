@@ -1,10 +1,7 @@
 .container {
-	width: 60%;
+	width: 56%;
 	margin: 0 auto;
-	background-color:#1B1C21;
-	position: sticky;
-	top: 0;
-	z-index: 999;
+	background-color: #1b1c21;
 }
 
 @font-face {
@@ -114,7 +111,6 @@
 	color: white;
 	font-size: 18px;
 	margin-left: 6px;
-
 }
 .zaid-svg {
 	color: white;

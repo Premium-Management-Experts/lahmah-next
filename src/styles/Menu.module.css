@@ -68,8 +68,11 @@
 
 .x-search-input {
 	font-size: 16px;
-	background: #1B1C21;
-		padding: 1rem;
+	background: #1b1c21;
+	padding: 1rem;
+	position: sticky;
+	top: 0;
+	z-index: 999;
 }
 
 .x-search-input .input-container {
@@ -116,7 +119,7 @@
 	font-size: 19px;
 }
 .search {
-	color :#a0a0a0;
+	color: #a0a0a0;
 	margin: 10px;
 	font-size: 19px;
 }

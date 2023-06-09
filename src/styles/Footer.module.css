@@ -1,0 +1,239 @@
+@font-face {
+	font-family: 'Droid Arabic Kufi';
+	font-style: normal;
+	font-weight: 400;
+	src: url('https://cdn.shopgo.me/static/vetrina/ttf/droid-kufi-regular.ttf');
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Droid Arabic Kufi';
+	font-style: normal;
+	font-weight: 700;
+	src: url('https://cdn.shopgo.me/static/vetrina/ttf/droid-kufi-bold.ttf');
+	font-display: swap;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap');
+
+.row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.container-fluid {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.p-0 {
+	padding: 0 !important;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-grow {
+	flex-grow: 1;
+}
+
+.max740 {
+	max-width: 640pt;
+}
+
+#main {
+	background-color: var(--background);
+	box-shadow: 0 0 12pt rgba(0, 0, 0, 0.1);
+}
+
+#flat-app {
+	background-color: var(--background-light);
+}
+
+#main-content {
+	flex: 1;
+}
+
+.col-12 {
+	position: relative;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+
+/* .mb-4 {
+	margin-bottom: 1.5rem !important;
+} */
+
+.footer-flat {
+	margin-bottom: 12pt;
+	background-color: #1b1c21;
+	width: 56%;
+	margin: 0 auto;
+	padding: 15px 0 15px 0;
+}
+
+.flex-row {
+	-ms-flex-direction: row !important;
+	flex-direction: row !important;
+}
+
+.flex-wrap {
+	-ms-flex-wrap: wrap !important;
+	flex-wrap: wrap !important;
+}
+
+.justify-content-center {
+	-ms-flex-pack: center !important;
+	justify-content: center !important;
+}
+
+.mb-2 {
+	margin-bottom: 0.5rem !important;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.align-center {
+	color: #d6d6d6;
+	align-items: center;
+}
+
+.align-items-center {
+	-ms-flex-align: center !important;
+	align-items: center !important;
+}
+
+.flex-column {
+	-ms-flex-direction: column !important;
+	flex-direction: column !important;
+}
+
+.mt-4 {
+	margin-top: 1.5rem !important;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.flex {
+	display: flex;
+}
+
+.partner-logo {
+	height: 24px;
+	display: flex;
+	margin: 8px;
+	justify-content: center;
+}
+
+.d-flex {
+	display: -ms-flexbox !important;
+	display: flex !important;
+}
+
+.m-0 {
+	margin: 0 !important;
+}
+
+.flex-center {
+	justify-content: center;
+}
+
+.force-ltr {
+	direction: ltr;
+}
+
+.zaid-img {
+	vertical-align: middle;
+	border-style: none;
+}
+
+.partner-logo img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.static-page-link {
+	color: var(--gray);
+	cursor: pointer;
+	padding: 4pt;
+	font-size: 14px;
+}
+
+.static-page-link:hover {
+	color: var(--gray-dark);
+	text-decoration: none;
+}
+
+.px-1 {
+	padding-right: 0.25rem !important;
+	padding-left: 0.25rem !important;
+}
+
+.dash {
+	color: #ddd;
+}
+
+.zaid-a {
+	color: var(--primary);
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.mx-2 {
+	margin-right: 0.5rem !important;
+	margin-left: 0.5rem !important;
+}
+
+.zaid-a {
+	color: var(--primary-dark);
+	text-decoration: underline;
+}
+
+.zaid-p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+.footer-text {
+	cursor: pointer;
+	color: var(--gray);
+	padding: 4pt;
+	font-size: 14px;
+	word-spacing: 1px;
+}
+
+.social-icon img {
+	/* filter: var(--white-icon-color); */
+	filter: brightness(0) invert(100%);
+}
+
+.footer-text a {
+	color: var(--font-color);
+	text-decoration: none;
+}
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-lQhCo.style-lQhCo {
+	gap: 10px;
+}

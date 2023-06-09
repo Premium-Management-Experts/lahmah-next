@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Featured from '../components/Featured';
 import Menu from '../components/Menu';
 import ListMenu from '../components/ListMenu';
+import Accordion from '../components/Accordion';
 
 export default function Home() {
 	return (
@@ -23,13 +24,14 @@ export default function Home() {
 			</Head>
 			<div
 				style={{
-					width: '60%',
+					width: '56%',
 					margin: '0 auto',
 				}}
 			>
 				<Featured />
 				<Menu />
 				<ListMenu />
+				
 			</div>
 		</>
 	);

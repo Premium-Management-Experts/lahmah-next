@@ -186,6 +186,9 @@ html {
 	background-color: #1b1c21;
 	overflow-x: scroll;
 	padding: 0 1rem 0;
+	position: sticky;
+	top: 70px;
+	z-index: 999;
 }
 .navbar-nav::-webkit-scrollbar {
 	display: none; /* Hide scrollbar for Chrome, Safari, and other WebKit browsers */
@@ -199,7 +202,6 @@ html {
 	display: block;
 	padding: 0.5rem 1rem;
 }
-
 
 .nav-item {
 	padding: 12pt;
