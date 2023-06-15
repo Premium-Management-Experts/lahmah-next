@@ -26,6 +26,12 @@
 /* *  {
     font-family: 'Roboto', sans-serif;
 } */
+.divScroll {
+	overflow-y: scroll;
+	height: 100px;
+	width: 200px;
+	scroll-behavior: smooth;
+}
 
 .navbar {
 	position: relative;

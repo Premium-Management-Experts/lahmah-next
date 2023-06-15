@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from '../styles/Accordion.module.css';
 import Image from 'next/image';
 import { MdOutlineArrowDropDown } from 'react-icons/md';
 import { IoMdArrowDropup } from 'react-icons/io';
-import { BsList, BsListCheck } from 'react-icons/bs';
-import { useRef, useState } from 'react';
+import { forwardRef } from 'react';
 
-const Accordion = () => {
+// import { BsList, BsListCheck } from 'react-icons/bs';
+
+const Accordion = forwardRef(({ showList, id }, ref) => {
 	let [show, setShow] = useState(false);
 	const [isIcon1Visible, setIsIcon1Visible] = useState(true);
 	const handleClick = () => {
@@ -14,11 +15,14 @@ const Accordion = () => {
 		setShow((prev) => !prev);
 	};
 
+	useEffect(() => {
+		setShow(showList);
+	}, [showList, id]);
+
 	return (
 		<div
-			className={`${styles.card} ${styles.collection} ${styles['col-12']} ${
-				styles.py - 2
-			} ${styles.px - 1}`}
+			ref={ref}
+			className={`${styles['card']} ${styles['collection']} ${styles['col-12']} ${styles['py-2']} ${styles['px-1']}`}
 		>
 			<div
 				className={`${styles['card-header']} ${styles.row} ${styles['flex-between']} ${styles['align-center']}`}
@@ -147,6 +151,6 @@ const Accordion = () => {
 			</div>
 		</div>
 	);
-};
+});
 
 export default Accordion;

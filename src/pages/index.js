@@ -31,7 +31,6 @@ export default function Home() {
 				<Featured />
 				<Menu />
 				<ListMenu />
-				
 			</div>
 		</>
 	);

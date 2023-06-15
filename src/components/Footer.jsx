@@ -111,7 +111,7 @@ const Footer = () => {
 							href='https://policies.google.com/terms'
 							className={styles['zaid-a']}
 						>
-							<strong> Terms of Service</strong>
+							<strong> Terms of Service </strong>
 						</a>
 						apply.
 					</p>
