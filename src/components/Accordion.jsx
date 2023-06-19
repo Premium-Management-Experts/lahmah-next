@@ -17,7 +17,6 @@ const Accordion = forwardRef(({ showList, id }, ref) => {
 
 	useEffect(() => {
 		setShow(showList);
-		console.log(showList);
 		setIsIcon1Visible(!showList);
 	}, [showList, id]);
 

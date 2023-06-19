@@ -4,7 +4,6 @@ import styles from '../styles/ListMenu.module.css';
 import Accordion from '../components/Accordion';
 
 export default function ListMenu() {
-	const [showList, setShowList] = useState(false);
 	const [activeAccordion, setActiveAccordion] = useState(null);
 	const [activeAccordionRef, setActiveAccordionRef] = useState(null);
 
